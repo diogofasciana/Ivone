@@ -1,0 +1,15 @@
+.caixa__categorias{
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .caixa__categorias{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .caixa__categorias{
+        padding: 5rem;
+    }
+}

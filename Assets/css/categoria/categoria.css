@@ -1,0 +1,77 @@
+.categoria {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.categoria--crespos{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    color: #457d58;
+}
+
+.categoria--crespos:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.categoria--cacheados{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.categoria--cacheados:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.categoria--finos{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.categoria--finos:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.categoria--todos{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.categoria--todos:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.categoria--infantis{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.categoria--infantis:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.categoria--cuidados{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.categoria--cuidados:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 0) {
+    .categoria {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .categoria {
+        margin-bottom: 0;
+    }
+}

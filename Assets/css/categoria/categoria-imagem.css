@@ -1,0 +1,44 @@
+.categoria__imagem {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+@media screen and (min-width: 0) {
+    .categoria__imagem {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .categoria__imagem {
+        margin: 2rem;
+    }
+}
+
+.categoria__imagem--crespos{
+    background-image: url('../../img/crespos-finos.png');
+}
+
+.categoria__imagem--cacheados{
+    background-image: url('../../img/cacheados-ondulados.png');
+}
+
+.categoria__imagem--finos{
+    background-image: url('../../img/finos-masculinos.png');
+}
+
+.categoria__imagem--todos{
+    background-image: url('../../img/todos-produtos.png');
+}
+
+.categoria__imagem--infantis{
+    background-image: url('../../img/produtos-infantis.png');
+}
+
+.categoria__imagem--cuidados{
+    background-image: url('../../img/cuidados-basicos.png');
+}
