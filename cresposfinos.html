@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
+<html>
+    <Head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -29,74 +29,107 @@
         <link rel="stylesheet" href="./Assets/css/titulo/titulo.css">
         <link rel="stylesheet" href="./Assets/css/body.css">
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-    </head>
+    </Head>
+
     <body>
         <header class="cabecalho">
             <a href="index.html"><img class="logo" alt="Imagem Ivone" src="./Assets/img/ivonepretodefinitivo.png"></a>
             <nav class="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link ativo" href="index.html">INÍCIO</a></li>
-                    <li class="menu__item"><a class="menu__link" href="produtos.html">PRODUTOS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html">INÍCIO</a></li>
+                    <li class="menu__item"><a class="menu__link ativo" href="produtos.html">PRODUTOS</a></li>
                     <li class="menu__item"><a class="menu__link" href="contatos.html">CONTATOS</a></li>
                 </ul>
             </nav>
         </header>
 
         <section>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./Assets/img/bannernovo.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./Assets/img/bannernovo2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./Assets/img/bannernovo3.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            <h2 class="titulo">Cabelos crespos e finos!</h2>
         </section>
 
         <section>
-            <h2 class="titulo">Escolha a sua categoria preferida!</h2>
+            <div class="container-fluid text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/img/produtocard1.png" class="card-img-top card__imagem" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/img/produtocard1.png" class="card-img-top card__imagem" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/img/combocard.png" class="card-img-top card__imagem" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>    
         </section>
-
-        <section class="caixa__categorias">
-            <div class="categorias">
-                <div class="categoria categoria--crespos">
-                    <a href="cresposfinos.html"><div class="categoria__imagem categoria__imagem--crespos"></div></a>
-                    <a class="categoria__descricao" href="cresposfinos.html"><span class="categoria__descricao">Cabelos crespos e finos</span></a>
+        <section>
+            <div class="container-fluid text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/img/produtocard1.png" class="card-img-top card__imagem" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="categoria categoria--cacheados">
-                    <a href="cacheados.html"><div class="categoria__imagem categoria__imagem--cacheados"></div></a>
-                    <a class="categoria__descricao" href="cacheados.html"><span class="categoria__descricao">Cacheados e ondulados</span></a>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/img/produtocard1.png" class="card-img-top card__imagem" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="categoria categoria--finos">
-                    <a href="finosmasculinos.html"><div class="categoria__imagem categoria__imagem--finos"></div></a>
-                    <a class="categoria__descricao" href="finosmasculinos.html"><span class="categoria__descricao">Cabelos finos e masculinos</span></a>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/img/combocard.png" class="card-img-top card__imagem" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="categoria categoria--todos">
-                    <a href="produtos.html"><div class="categoria__imagem categoria__imagem--todos"></div></a>
-                    <a class="categoria__descricao" href="produtos.html"><span class="categoria__descricao">Todos produtos</span></a>
-                </div>
-                <div class="categoria categoria--infantis">
-                    <a href="infantil.html"><div class="categoria__imagem categoria__imagem--infantis"></div></a>
-                    <a class="categoria__descricao" href="infantil.html"><span class="categoria__descricao">Linha infantil</span></a>
-                </div>
-                <div class="categoria categoria--cuidados">
-                    <a href="cuidados.html"><div class="categoria__imagem categoria__imagem--cuidados"></div></a>
-                    <a class="categoria__descricao" href="cuidados.html"><span class="categoria__descricao">Cuidados básicos</span></a>
-                </div>
-            </div>
+                <section>
+                    <div class="container-fluid text-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Assets/img/produtocard1.png" class="card-img-top card__imagem" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Assets/img/produtocard1.png" class="card-img-top card__imagem" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Assets/img/combocard.png" class="card-img-top card__imagem" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>    
+                </section>
+            </div>    
         </section>
 
         <footer class="site-footer">
@@ -122,7 +155,7 @@
                         <h6>Links Rápidos</h6>
                         <ul class="footer-links">
                             <li><a href="">Contato</a></li>
-                            <li><a href="">Peta</a></li>
+                            <li><a href="https://twitter.com/peta">Peta</a></li>
                             <li><a href="">Carrinho</a></li>
                             <li><a href="">Direitos</a></li>
                         </ul>
@@ -149,5 +182,5 @@
                     </div>
                 </div>
         </footer>
-    </body>
+    </body>    
 </html>
